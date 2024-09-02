@@ -10,4 +10,8 @@
         <description>Created after removal of "Basic Tags" from HTML</description>
         <accepts>Basic-Tags.html</accepts>
     </rule>
+    <rule id="7f3d17bd">
+        <description>Created after removal of "Self Closing HTML Elements" from HTML</description>
+        <accepts>Self-Closing-HTML-Elements.html</accepts>
+    </rule>
 </rules>
