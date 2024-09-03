@@ -1,4 +1,4 @@
-# Formatting elements
+# HTML Formatting elements
 HTML formatting elements are used to define the appearance and meaning of text within a webpage.  
 These elements help to emphasize, mark, and structure text, making it more readable and semantically meaningful.  
 Let's take a look at all of these elements one by one:  
