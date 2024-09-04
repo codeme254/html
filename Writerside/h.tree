@@ -20,4 +20,7 @@
     <toc-element topic="HTML-Attributes.md"/>
     <toc-element topic="div-and-span.md"/>
     <toc-element topic="HTML-Table.md"/>
+    <toc-element topic="HTML-Forms.md"/>
+    <toc-element topic="HTML-Form-Elements.md"/>
+    <toc-element topic="HTML-Form-Input-Types.md"/>
 </instance-profile>
