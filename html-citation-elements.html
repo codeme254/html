@@ -1,0 +1,54 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-09-04T09:07:41.8207903"><title>HTML Citation Elements | HTML</title><script type="application/json" id="virtual-toc-data">[{"id":"blockquote-blockquote-for-block-quotations","level":0,"title":"\u003cblockquote\u003e\u003c/blockquote\u003e for block quotations","anchor":"#blockquote-blockquote-for-block-quotations"},{"id":"q-q-for-inline-quotes","level":0,"title":"\u003cq\u003e\u003c/q\u003e for inline quotes","anchor":"#q-q-for-inline-quotes"},{"id":"abbr-abbr-for-abbreviations","level":0,"title":"\u003cabbr\u003e\u003c/abbr\u003e for abbreviations","anchor":"#abbr-abbr-for-abbreviations"},{"id":"address-address-for-contact-information","level":0,"title":"\u003caddress\u003e\u003c/address\u003e for contact information","anchor":"#address-address-for-contact-information"},{"id":"cite-cite-for-citations","level":0,"title":"\u003ccite\u003e\u003c/cite\u003e for citations","anchor":"#cite-cite-for-citations"},{"id":"bdo-bdo-for-overriding-text-direction","level":0,"title":"\u003cbdo\u003e\u003c/bdo\u003e for overriding text direction","anchor":"#bdo-bdo-for-overriding-text-direction"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="HTML Citation Elements | HTML"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="HTML Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/html-citation-elements.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="HTML Citation Elements | HTML"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/html-citation-elements.html#webpage",
+    "url": "writerside-documentation/html-citation-elements.html",
+    "name": "HTML Citation Elements | HTML",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "HTML Help"
+}</script><!-- End Schema.org --></head><body data-id="HTML-Citation-Elements" data-main-title="HTML Citation Elements" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>HTML  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="HTML-Citation-Elements" id="HTML-Citation-Elements.md">HTML Citation Elements</h1><p id="qp14n_3">HTML provides several elements specifically for quoting text, providing citations, abbreviating words, defining contact information, and handling bidirectional text. <br> These elements help structure content in a meaningful and semantically appropriate way. <br> Let's take a look at some of them:</p><section class="chapter"><h2 id="blockquote-blockquote-for-block-quotations" data-toc="blockquote-blockquote-for-block-quotations"><code class="code" id="qp14n_16">&lt;blockquote&gt;&lt;/blockquote&gt;</code> for block quotations</h2><p id="qp14n_13">Represents a section that is quoted from another source, typically displayed as a block of text that is indented from the rest of the content. <br> Used for longer quotations, usually of multiple lines or paragraphs. It takes in an attribute called <code class="code" id="qp14n_18">cite</code> which specifies the source of the quotation.</p><div class="code-block" data-lang="markup">
+&lt;p&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quibusdam necessitatibus suscipit nisi expedita ex consequatur! 
+    Corporis, architecto iusto? Labore.
+&lt;/p&gt;
+&lt;blockquote cite=&quot;https://www.example.com/&quot;&gt;
+    This is a blockquote. It is typically used for longer quotations.
+&lt;/blockquote&gt;
+&lt;p&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum harum error sint dolores provident 
+    deleniti beatae magni ipsum voluptates?
+&lt;/p&gt;
+</div><figure id="qp14n_15"><img alt="blockquote" src="images/blockquote.png" title="blockquote" width="1603" height="145"></figure></section><section class="chapter"><h2 id="q-q-for-inline-quotes" data-toc="q-q-for-inline-quotes"><code class="code" id="qp14n_23">&lt;q&gt;&lt;/q&gt;</code> for inline quotes</h2><p id="qp14n_20">Represents a short inline quotation, typically enclosed in quotation marks. <br> Used for short quotes within a paragraph or sentence. <br> It takes in an attribute called <code class="code" id="qp14n_26">cite</code> which specifies the source of the quotation.</p><div class="code-block" data-lang="markup">
+&lt;p&gt;
+    As the saying goes, 
+    &lt;q cite=&quot;https://www.example.com&quot;&gt;Actions speak louder than words&lt;/q&gt;
+    so we decided to do something
+&lt;/p&gt;
+</div><figure id="qp14n_22"><img alt="q" src="images/q.png" title="q" width="855" height="40"></figure></section><section class="chapter"><h2 id="abbr-abbr-for-abbreviations" data-toc="abbr-abbr-for-abbreviations"><code class="code" id="qp14n_31">&lt;abbr&gt;&lt;/abbr&gt;</code> for abbreviations</h2><p id="qp14n_28">Represents an abbreviation or acronym, with an optional title attribute to specify the full term. <br> When the user hovers on the text wrapped with this attribute, a small title pops up with the full meaning of the abbreviated tag.</p><div class="code-block" data-lang="markup">
+&lt;p&gt;
+    The project repository &lt;abbr title=&quot;Looks good to me&quot;&gt;LGTM!&lt;/abbr&gt;
+&lt;/p&gt;
+</div><figure id="qp14n_30"><img alt="abbr tag" src="images/abbr.png" title="abbr tag" width="644" height="132"></figure></section><section class="chapter"><h2 id="address-address-for-contact-information" data-toc="address-address-for-contact-information"><code class="code" id="qp14n_37">&lt;address&gt;&lt;/address&gt;</code> for contact information</h2><p id="qp14n_34">Provides contact information for the owner of a document or article, often displayed in italics.</p><div class="code-block" data-lang="markup">
+&lt;p&gt;Here's how you can reach us:&lt;/p&gt;
+&lt;address&gt;
+    Send us an email to: info@company.com
+&lt;/address&gt;
+&lt;address&gt;
+    Call us: +254723190821
+&lt;/address&gt;
+</div><figure id="qp14n_36"><img alt="address" src="images/address.png" title="address" width="412" height="125"></figure></section><section class="chapter"><h2 id="cite-cite-for-citations" data-toc="cite-cite-for-citations"><code class="code" id="qp14n_42">&lt;cite&gt;&lt;/cite&gt;</code> for citations</h2><p id="qp14n_39">Represents the title of a work (such as a book, article, movie, etc.) or a reference to a source. <br> Used to cite the source of a quote, idea, or referenced material, typically rendered in italics.</p><div class="code-block" data-lang="markup">
+&lt;p&gt;One of my favorite books is &lt;cite&gt;Atomic Habits&lt;/cite&gt; by James Clear.&lt;/p&gt;
+</div><figure id="qp14n_41"><img alt="cite" src="images/cite.png" title="cite" width="592" height="41"></figure></section><section class="chapter"><h2 id="bdo-bdo-for-overriding-text-direction" data-toc="bdo-bdo-for-overriding-text-direction"><code class="code" id="qp14n_48">&lt;bdo&gt;&lt;/bdo&gt;</code> for overriding text direction</h2><p id="qp14n_45">Overrides the current text direction, allowing you to change the direction of text display from left-to-right (LTR) to right-to-left (RTL), or vice versa. <br> Used when embedding text in a language that uses a different writing direction, such as Arabic, within a document that has a different base direction. <br> It takes in an attribute called <code class="code" id="qp14n_51">dir</code> which specifies the direction of the text. Values can be ltr (left-to-right) or rtl (right-to-left).</p><div class="code-block" data-lang="markup">
+&lt;p&gt;
+    The word 
+    &lt;bdo dir=&quot;rtl&quot;&gt;Hello world!&lt;/bdo&gt; 
+    is displayed in reverse and it is Hello world!
+&lt;/p&gt;
+</div><figure id="qp14n_47"><img alt="bdo" src="images/bdo.png" title="bdo" width="662" height="41"></figure></section><div class="last-modified">Last modified: 04 September 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="formatting-elements.html" class="navigation-links__prev">HTML Formatting elements</a><a href="block-vs-inline-elements.html" class="navigation-links__next">Block VS Inline Elements</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.js"></script></body></html>

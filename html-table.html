@@ -1,0 +1,96 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-09-04T09:07:41.9360636"><title>HTML Tables | HTML</title><script type="application/json" id="virtual-toc-data">[{"id":"basic-structure-of-an-html-table","level":0,"title":"Basic Structure of an HTML Table","anchor":"#basic-structure-of-an-html-table"},{"id":"table-attributes-and-additional-features","level":0,"title":"Table attributes and additional features","anchor":"#table-attributes-and-additional-features"},{"id":"organizing-table-content","level":0,"title":"Organizing table content","anchor":"#organizing-table-content"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="HTML Tables | HTML"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="HTML Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/html-table.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="HTML Tables | HTML"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/html-table.html#webpage",
+    "url": "writerside-documentation/html-table.html",
+    "name": "HTML Tables | HTML",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "HTML Help"
+}</script><!-- End Schema.org --></head><body data-id="HTML-Table" data-main-title="HTML Tables" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>HTML  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="HTML-Table" id="HTML-Table.md">HTML Tables</h1><p id="-k3r8ai_3">HTML tables are used to display data in a grid or tabular format, where content is organized into rows and columns.</p><section class="chapter"><h2 id="basic-structure-of-an-html-table" data-toc="basic-structure-of-an-html-table">Basic Structure of an HTML Table</h2><p id="-k3r8ai_7">A simple HTML table is composed of several elements:</p><ul class="list _bullet" id="-k3r8ai_8"><li class="list__item" id="-k3r8ai_11"><p><code class="code" id="-k3r8ai_15">&lt;table&gt;&lt;/table&gt;</code>: the main container for the table.</p></li><li class="list__item" id="-k3r8ai_12"><p><code class="code" id="-k3r8ai_16">&lt;tr&gt;&lt;/tr&gt;</code>: (table row), defines a row in the table.</p></li><li class="list__item" id="-k3r8ai_13"><p><code class="code" id="-k3r8ai_17">&lt;th&gt;&lt;/th&gt;</code>: (table header), defines a header cell, typically displayed as bold and centered by default.</p></li><li class="list__item" id="-k3r8ai_14"><p><code class="code" id="-k3r8ai_18">&lt;td&gt;&lt;/td&gt;</code>: (table data), defines a standard cell in the table.</p></li></ul><div class="code-block" data-lang="markup">
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;th&gt;City&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alice&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;Nairobi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Jack&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+        &lt;td&gt;Mombasa&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Elvis&lt;/td&gt;
+        &lt;td&gt;55&lt;/td&gt;
+        &lt;td&gt;Nyeri&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</div><figure id="-k3r8ai_10"><img alt="table" src="images/table.png" title="table" width="244" height="142"></figure></section><section class="chapter"><h2 id="table-attributes-and-additional-features" data-toc="table-attributes-and-additional-features">Table attributes and additional features</h2><p id="-k3r8ai_19"><code class="code" id="-k3r8ai_25">border</code> attribute adds a border around table cells.</p><div class="code-block" data-lang="markup">
+&lt;table border=&quot;1&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;th&gt;City&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alice&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;Nairobi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Jack&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+        &lt;td&gt;Mombasa&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</div><figure id="-k3r8ai_21"><img alt="table border" src="images/table_border.png" title="table border" width="307" height="137"></figure><p id="-k3r8ai_22"><code class="code" id="-k3r8ai_26">rowspan</code> and <code class="code" id="-k3r8ai_27">colspan</code> attributes allow cells to span multiple rows or columns:</p><div class="code-block" data-lang="markup">
+&lt;table border=&quot;1&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th colspan=&quot;2&quot;&gt;Details&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alice&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;Nairobi&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</div><figure id="-k3r8ai_24"><img alt="colspan" src="images/colspan.png" title="colspan" width="221" height="92"></figure></section><section class="chapter"><h2 id="organizing-table-content" data-toc="organizing-table-content">Organizing table content</h2><p id="-k3r8ai_28">There are specific tags that help with organization of table content:</p><ul class="list _bullet" id="-k3r8ai_29"><li class="list__item" id="-k3r8ai_32"><p><code class="code" id="-k3r8ai_35">&lt;thead&gt;&lt;/thead&gt;</code>: Wraps the table header.</p></li><li class="list__item" id="-k3r8ai_33"><p><code class="code" id="-k3r8ai_36">&lt;tbody&gt;&lt;/tbody&gt;</code>: Wraps the body of the table.</p></li><li class="list__item" id="-k3r8ai_34"><p><code class="code" id="-k3r8ai_37">&lt;tfoot&gt;&lt;/tfoot&gt;</code>: Wraps the footer of the table.</p></li></ul><div class="code-block" data-lang="markup">
+&lt;table border=&quot;1&quot;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+            &lt;th&gt;City&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Alice&lt;/td&gt;
+            &lt;td&gt;30&lt;/td&gt;
+            &lt;td&gt;Nairobi&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Jack&lt;/td&gt;
+            &lt;td&gt;25&lt;/td&gt;
+            &lt;td&gt;Mombasa&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;3&quot;&gt;End of data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;
+</div><figure id="-k3r8ai_31"><img alt="Organizing table content" src="images/organizing_table_data.png" title="Organizing table content" width="260" height="176"></figure></section><div class="last-modified">Last modified: 04 September 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="div-and-span.html" class="navigation-links__prev">div and span</a><a href="html-forms.html" class="navigation-links__next">HTML Forms</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.js"></script></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-09-04T09:07:41.8253446"><title>HTML Form Elements | HTML</title><script type="application/json" id="virtual-toc-data">[{"id":"input-input-element","level":0,"title":"\u003cinput\u003e\u003c/input\u003e element","anchor":"#input-input-element"},{"id":"label-label-element","level":0,"title":"\u003clabel\u003e\u003c/label\u003e element","anchor":"#label-label-element"},{"id":"select-select-element","level":0,"title":"\u003cselect\u003e\u003c/select\u003e element","anchor":"#select-select-element"},{"id":"textarea-textarea-element","level":0,"title":"\u003ctextarea\u003e\u003c/textarea\u003e element","anchor":"#textarea-textarea-element"},{"id":"fieldset-fieldset-and-legend-legend-elements","level":0,"title":"\u003cfieldset\u003e\u003c/fieldset\u003e and \u003clegend\u003e\u003c/legend\u003e elements.","anchor":"#fieldset-fieldset-and-legend-legend-elements"},{"id":"datalist-datalist-element","level":0,"title":"\u003cdatalist\u003e\u003c/datalist\u003e element","anchor":"#datalist-datalist-element"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="HTML Form Elements | HTML"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="HTML Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/html-form-elements.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="HTML Form Elements | HTML"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/html-form-elements.html#webpage",
+    "url": "writerside-documentation/html-form-elements.html",
+    "name": "HTML Form Elements | HTML",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "HTML Help"
+}</script><!-- End Schema.org --></head><body data-id="HTML-Form-Elements" data-main-title="HTML Form Elements" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>HTML  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="HTML-Form-Elements" id="HTML-Form-Elements.md">HTML Form Elements</h1><p id="w4kkpg_3">An HTML form can contain one or more of the following elements:</p><section class="chapter"><h2 id="input-input-element" data-toc="input-input-element"><code class="code" id="w4kkpg_14">&lt;input&gt;&lt;/input&gt;</code> element</h2><p id="w4kkpg_11">It is used to create various types of fields for users to input their data. <br> One of the most important attribute it takes is the <code class="code" id="w4kkpg_16">type</code> attribute which defines the type of input.</p><div class="code-block" data-lang="markup">
+&lt;form&gt;
+    &lt;p&gt;What is your name&lt;/p&gt;
+    &lt;input type=&quot;text&quot;&gt;
+&lt;/form&gt;
+</div><figure id="w4kkpg_13"><img alt="Text input" src="images/text-input.png" title="Text input" width="406" height="110"></figure></section><section class="chapter"><h2 id="label-label-element" data-toc="label-label-element"><code class="code" id="w4kkpg_21">&lt;label&gt;&lt;/label&gt;</code> element</h2><p id="w4kkpg_18">It is used to define a label for an input element. <br> When a user clicks on a label, the associated input element gets focused. <br> For this to work, the label element has a <code class="code" id="w4kkpg_24">for</code> attribute which we can pass to our own value, we then pass an id attribute to the associated input element matching the for attribute of the label as shown.</p><div class="code-block" data-lang="markup">
+&lt;form&gt;
+    &lt;label for=&quot;first-name&quot;&gt;first name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;first-name&quot;&gt;
+    
+    &lt;label for=&quot;lastname&quot;&gt;last name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;lastname&quot;&gt;
+&lt;/form&gt;
+</div><figure id="w4kkpg_20"><img alt="label" src="images/label.png" title="label" width="745" height="65"></figure></section><section class="chapter"><h2 id="select-select-element" data-toc="select-select-element"><code class="code" id="w4kkpg_29">&lt;select&gt;&lt;/select&gt;</code> element</h2><p id="w4kkpg_26">The select element is used to create a drop-down list. <br> It is used together with the <code class="code" id="w4kkpg_31">&lt;option&gt;&lt;/option&gt;</code> elements to define the available options.</p><div class="code-block" data-lang="markup">
+&lt;form&gt;
+    &lt;label for=&quot;county&quot;&gt;Select your county:&lt;/label&gt;
+    &lt;select id=&quot;county&quot;&gt;
+        &lt;option&gt;Nairobi&lt;/option&gt;
+        &lt;option&gt;Nakuru&lt;/option&gt;
+        &lt;option&gt;Mombasa&lt;/option&gt;
+        &lt;option&gt;Eldoret&lt;/option&gt;
+        &lt;option&gt;Kirinyaga&lt;/option&gt;
+        &lt;option&gt;Murang'a&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/form&gt;
+</div><figure id="w4kkpg_28"><img alt="select" src="images/select.png" title="select" width="380" height="290"></figure></section><section class="chapter"><h2 id="textarea-textarea-element" data-toc="textarea-textarea-element"><code class="code" id="w4kkpg_36">&lt;textarea&gt;&lt;/textarea&gt;</code> element</h2><p id="w4kkpg_33">The textarea element is used for multi-line text input. <br> It allows for larger amounts of text and spans multiple lines.</p><div class="code-block" data-lang="markup">
+&lt;form&gt;
+    &lt;label for=&quot;about-user&quot;&gt;Tell us about yourself:&lt;/label&gt;
+    &lt;textarea id=&quot;about-user&quot;&gt;&lt;/textarea&gt;
+&lt;/form&gt;
+</div><figure id="w4kkpg_35"><img alt="text area" src="images/text-area.png" title="text area" width="628" height="159"></figure></section><section class="chapter"><h2 id="fieldset-fieldset-and-legend-legend-elements" data-toc="fieldset-fieldset-and-legend-legend-elements"><code class="code" id="w4kkpg_42">&lt;fieldset&gt;&lt;/fieldset&gt;</code> and <code class="code" id="w4kkpg_43">&lt;legend&gt;&lt;/legend&gt;</code> elements.</h2><p id="w4kkpg_39">The fieldset element is used to group related elements, it visually groups content inside a form often with a border around it. It is used with the legend element which defines a caption for the fieldset.</p><div class="code-block" data-lang="markup">
+&lt;form&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Personal information&lt;/legend&gt;
+        &lt;label for=&quot;firstname&quot;&gt;first name&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;firstname&quot;&gt;
+        &lt;label for=&quot;lastname&quot;&gt;last name&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;lastname&quot;&gt;
+    &lt;/fieldset&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;next of kin information&lt;/legend&gt;
+        &lt;label for=&quot;fullname&quot;&gt;full name&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;fullname&quot;&gt;
+        &lt;label for=&quot;school&quot;&gt;school&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;school&quot;&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;
+</div><figure id="w4kkpg_41"><img alt="fieldset" src="images/field_set.png" title="fieldset" width="1888" height="182"></figure></section><section class="chapter"><h2 id="datalist-datalist-element" data-toc="datalist-datalist-element"><code class="code" id="w4kkpg_48">&lt;datalist&gt;&lt;/datalist&gt;</code> element</h2><p id="w4kkpg_45">Used to provide a list of predefined options for an input element. <br> Allows users to either type a value or select a value from a list.</p><div class="code-block" data-lang="markup">
+&lt;label for=&quot;browser&quot;&gt;what browser do you use:&lt;/label&gt;
+&lt;input list=&quot;browsers&quot; id=&quot;browser&quot;&gt;
+&lt;datalist id=&quot;browsers&quot;&gt;
+    &lt;option value=&quot;Chrome&quot;&gt;
+    &lt;option value=&quot;Firefox&quot;&gt;
+    &lt;option value=&quot;Safari&quot;&gt;
+    &lt;option value=&quot;Edge&quot;&gt;
+&lt;/datalist&gt;
+</div><figure id="w4kkpg_47"><img alt="datalist" src="images/data_list.png" title="datalist" width="808" height="304"></figure></section><div class="last-modified">Last modified: 04 September 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="html-forms.html" class="navigation-links__prev">HTML Forms</a><a href="html-form-input-types.html" class="navigation-links__next">HTML Form Input Types</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.js"></script></body></html>
